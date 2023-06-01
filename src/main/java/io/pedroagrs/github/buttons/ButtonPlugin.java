@@ -5,7 +5,6 @@ import com.comphenix.protocol.ProtocolManager;
 import io.pedroagrs.github.buttons.api.ButtonAPI;
 import io.pedroagrs.github.buttons.command.ButtonExampleCommand;
 import io.pedroagrs.github.buttons.listener.ButtonPacketListener;
-import io.pedroagrs.github.buttons.provider.ButtonPlayerLookProvider;
 import io.pedroagrs.github.buttons.scheduler.ButtonPlayerFadeOutScheduler;
 import io.pedroagrs.github.buttons.service.ButtonServiceImpl;
 import lombok.Getter;
@@ -19,8 +18,6 @@ public class ButtonPlugin extends JavaPlugin {
 
     @Getter
     private ButtonService service;
-
-    private ButtonPlayerLookProvider playerProvider;
 
     @Override
     public void onEnable() {

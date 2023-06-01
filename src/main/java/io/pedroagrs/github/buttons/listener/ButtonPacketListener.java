@@ -13,6 +13,7 @@ public class ButtonPacketListener extends PacketAdapter {
 
     private static final PacketType[] TYPES =
             new PacketType[] {PacketType.Play.Client.LOOK, PacketType.Play.Client.POSITION_LOOK};
+
     private final ButtonService service;
 
     public ButtonPacketListener(ButtonPlugin plugin) {
